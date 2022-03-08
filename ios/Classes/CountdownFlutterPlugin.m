@@ -3,7 +3,7 @@
 @implementation CountdownFlutterPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"countdown_flutter"
+      methodChannelWithName:@"countdown_flutter_ns"
             binaryMessenger:[registrar messenger]];
   CountdownFlutterPlugin* instance = [[CountdownFlutterPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];

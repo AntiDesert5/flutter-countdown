@@ -1,4 +1,4 @@
-package com.example.countdown_flutter;
+package com.example.countdown_flutter_ns;
 
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
@@ -10,7 +10,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 public class CountdownFlutterPlugin implements MethodCallHandler {
   /** Plugin registration. */
   public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "countdown_flutter");
+    final MethodChannel channel = new MethodChannel(registrar.messenger(), "countdown_flutter_ns");
     channel.setMethodCallHandler(new CountdownFlutterPlugin());
   }
 

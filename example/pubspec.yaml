@@ -1,5 +1,5 @@
 name: countdown_flutter_example
-description: Demonstrates how to use the countdown_flutter plugin.
+description: Demonstrates how to use the countdown_flutter_ns plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  countdown_flutter:
+  countdown_flutter_ns:
     path: ../
 
 # For information on the generic Dart part of this file, see the

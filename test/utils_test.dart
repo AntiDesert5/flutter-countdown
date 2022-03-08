@@ -1,4 +1,4 @@
-import 'package:countdown_flutter/utils.dart';
+import 'package:countdown_flutter_ns/utils.dart';
 
 import 'package:flutter_test/flutter_test.dart';
 

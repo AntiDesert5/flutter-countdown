@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:countdown_flutter/countdown_flutter.dart';
+import 'package:countdown_flutter_ns/countdown_flutter_ns.dart';
 
 void main() => runApp(MyApp());
 

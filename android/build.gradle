@@ -1,4 +1,4 @@
-group 'com.example.countdown_flutter'
+group 'com.example.countdown_flutter_ns'
 version '1.0-SNAPSHOT'
 
 buildscript {
